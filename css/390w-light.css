@@ -5,7 +5,7 @@
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  height: 1559px;
+  height: a;
   width: 390px;
 }
 
@@ -42,11 +42,31 @@
 }
 
 .x390w-light .container-3 {
-  align-items: flex-start;
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 40px;
   padding: 10.8px 105.4px;
   width: 390px;
+}
+
+.background {
+  background-color: black;
+  width: 100%;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.background p {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+  align-self: center;
 }
 
 .x390w-light .overlap-group {
@@ -461,6 +481,7 @@
   position: absolute;
   top: 38px;
   width: 42px;
+  display: none;
 }
 
 .x390w-light .vector {
@@ -555,6 +576,7 @@
   margin-top: 2px;
   min-height: 46px;
   width: 214px;
+  display: none;
 }
 
 .x390w-light .cart {
@@ -569,7 +591,6 @@
   left: 0;
   overflow: hidden;
   padding: 11.5px 0;
-  position: fixed;
   bottom: 0;
   width: 390px;
 }
